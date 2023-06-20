@@ -1,9 +1,10 @@
 import "./Instructions.css"
 
 export function Instructions(props) {
+  const {start} = props
   return (
     <aside className="instructions">
-      <p></p>
+      <p>{start}</p>
     </aside>
   )
 }
